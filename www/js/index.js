@@ -44,6 +44,13 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
+        // Set up the dialog button
+        var dialog_button = document.getElementById('dialog_button');
+        dialog_button.disabled = false;
+        dialog_button.onclick = function() {
+            navigator.notification.alert('This message is shown using the dialogs plugin');
+        }
+
         console.log('Received Event: ' + id);
     }
 };
