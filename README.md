@@ -16,3 +16,11 @@ A sample app using [gulp](https://github.com/gulpjs/gulp) and the experimental C
     gulp create
     gulp build/run/emulate
     
+ 
+ Basic iteration: change a file under `www`, run `gulp` - the default task will build and run the app.
+ 
+ Adding or removing a plugin:
+ 
+     gulp clean
+     npm (un)install --save cordova-plugin-file
+     gulp create
