@@ -41,6 +41,10 @@ prjInfo.paths.template = path.resolve('node_modules', 'cordova-' + platform);
 // A list of directories that are plugins or contain plugins.
 prjInfo.paths.plugins = [path.resolve('node_modules')];
 
+// Path relative to which icons and splashscreens are specified in config.xml
+// See https://cordova.apache.org/docs/en/4.0.0/config_ref_images.md.html
+// prjInfo.paths.icons = path.resolve('icons');
+
 // Cordova's ConfigParser object represents the config.xml file The file is
 // never read again, so you your manipulations of ConfigParser are carried on
 // and saved inside the platform project dir under build.
