@@ -69,7 +69,7 @@ gulp.task('create', ['clean'], function() {
 
 // Create a platform project as a build artifact under ./build/<platform>/
 // Full version. Only needed if you went to do some hackish things between the
-// stages. Can't handle icons well for now.
+// stages. Can't handle icons for now.
 gulp.task('longcreate', ['clean'], function() {
     // TODO: only remove current platform build dir instead of full clean.
     fs.mkdirSync('build');
@@ -132,6 +132,7 @@ gulp.task('run', function() {
             return proj.run(opts);
         });
 });
+/******************************************************************************/
 
 // Run in emulator
 gulp.task('emulate', function() {
