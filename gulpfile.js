@@ -21,7 +21,6 @@ if (args.ios)
 if (args.android)
     platform = 'android'
 
-
 // Collect all the info for the cordova build of this app
 var prjInfo = {};
 prjInfo.platform = platform;

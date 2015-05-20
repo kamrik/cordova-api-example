@@ -13,8 +13,8 @@
     "gulp": "^3.8.11",
     "nopt": "^3.0.1",
     "run-sequence": "^1.0.2",
-    "CordovaPlatformProject": "kamrik/CordovaPlatformProject",
-    "cordova-android": "^3.7.1",
+    "cordova-platform-project": "^0.0.1",
+    "cordova-android": "^4.0.1",
     "cordova-ios": "^3.8.0",
     "cordova-plugin-dialogs": "^0.3.0"
   }
