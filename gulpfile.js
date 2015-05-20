@@ -7,7 +7,7 @@ var path = require('path');
 var del = require('del');
 var fs = require('fs');
 var runSeq = require('run-sequence');
-var pp = require('CordovaPlatformProject');
+var pp = require('cordova-platform-project');
 
 /******************************************************************************/
 
